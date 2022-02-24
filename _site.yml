@@ -6,8 +6,8 @@ output_dir: "."
 theme: theme.css
 navbar:
   right:
-    - text: "NHS-R Workshop"
-      href: "https://nhsrcommunity.com/"
+    - text: "GRS 2022 Workshop"
+      href: "https://www.tudublin.ie/"
     - text: "Slides"
       menu:
         - text: "Morning 10:00-11:00: Getting Started"
