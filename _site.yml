@@ -1,0 +1,30 @@
+name: "introduction-to-ggplot"
+title: "Introduction to ggplot"
+description: |
+  An Introduction to ggplot
+output_dir: "."
+theme: theme.css
+navbar:
+  right:
+    - text: "NHS-R Workshop"
+      href: "https://nhsrcommunity.com/"
+    - text: "Slides"
+      menu:
+        - text: "Morning 10:00-11:00: Getting Started"
+          href: "slides/01-why-ggplot.html"
+        - text: "Morning 11:00-12:00: ggplot - Proportions"
+          href: "slides/02-proportions.html"
+        - text: "Morning 12:00-13:00 ggplot - Distributions/Relationships"
+          href: "slides/03-distributions-relationships.html"
+    - icon: fab fa-youtube
+      href: "https://www.youtube.com/channel/UCMwM-3tg_-Pbx8hKO78q5EA"
+    - icon: fab fa-twitter
+      href: "https://twitter.com/eugene100hickey"
+    - icon: fab fa-github
+      href: "https://github.com/eugene100hickey"
+creative_commons: CC BY-SA
+repository_url: https://github.com/eugene100hickey
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true

@@ -1,0 +1,12 @@
+name: 01-colours
+title: 01-colours
+username:
+account: eugene-hickey
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3473744
+bundleId: 4096452
+url: https://eugene-hickey.shinyapps.io/01-colours/
+when: 1610642621.49993
+asMultiple: FALSE
+asStatic: TRUE
