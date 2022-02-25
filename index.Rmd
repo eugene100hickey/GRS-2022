@@ -29,7 +29,7 @@ meta() %>%
     description = "An Introduction to ggplot for TUD",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "eugene100hickey/GRS-ggplot") %>% 
+  meta_name("github-repo" = "eugene100hickey/GRS-2022") %>% 
   meta_social(
     title = "Introduction to ggplot",
     url = "",
@@ -52,7 +52,7 @@ This is the course site for the _Introduction to ggplot_ workshop created by Eug
 
 <aside>
 ```{r, out.height=43}
-knitr::include_graphics("https://nhsrcommunity.com/wp-content/uploads/2018/02/logo.png")
+knitr::include_graphics("slides/img/tudublin-logo.jpg")
 ```
 </aside>
 
@@ -66,17 +66,17 @@ Wednesday, March 8th<br/>10-1pm BST ([check your time zone](https://www.worldtim
 </aside>
 
 ```{r embed-xaringan-01, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "https://intro-ggplot-nhs.netlify.app/slides/01-why-ggplot.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/01-why-ggplot.html", ratio = "16:9")
 ```
 
 
 ```{r embed-xaringan-02, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "https://intro-ggplot-nhs.netlify.app/slides/02-proportions.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/02-proportions.html", ratio = "16:9")
 ```
 
 
 ```{r embed-xaringan-03, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "https://intro-ggplot-nhs.netlify.app/slides/03-distributions-relationships.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/03-distributions-relationships.html", ratio = "16:9")
 ```
 
 - **The Afternoon** will cover colours, themes, facets, and fonts.
@@ -107,9 +107,6 @@ list_of_packages <- c("tidyverse")
 # run the following line of code to install the packages you currently do not have
 new_pkgs <- list_of_pkgs[!(list_of_pkgs %in% installed.packages()[,"Package"])]
 if(length(new_pkgs)) install.packages(new_pkgs)
-
-# From GitHub
-devtools::install_github("nhs-r-community/NHSRdatasets")
 ```
 
 # Links
