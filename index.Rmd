@@ -61,7 +61,7 @@ This six-hour hands-on workshop will be a gentle introduction to  [ggplot](https
 - **The Morning** will discuss the overall structure of [ggplot](https://ggplot2.tidyverse.org/reference/ggplot.html) and we'll start doing some initial plots; barcharts, boxplots, histograms, point/line plots.....
 
 <aside>
-Wednesday, March 8th<br/>10-1pm BST ([check your time zone](https://www.worldtimebuddy.com/?qm=1&lid=2964574,360630,524901&h=2964574&date=2022-3-8&sln=10-13&hf=1
+Wednesday, March 9th<br/>10-1pm BST ([check your time zone](https://www.worldtimebuddy.com/?qm=1&lid=2964574,360630,524901&h=2964574&date=2022-3-9&sln=10-13&hf=1
 ))
 </aside>
 
@@ -81,11 +81,20 @@ xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/03-dist
 
 - **The Afternoon** will cover colours, themes, facets, and fonts.
 
+
+```{r embed-xaringan-04, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/04-colours.html", ratio = "16:9")
+```
+
+
+```{r embed-xaringan-05, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://grs-2022.netlify.app/slides/04-colours.html", ratio = "16:9")
+```
 <aside>
-Wednesday, March 8th<br/>1-4pm BST ([check your time zone](https://www.worldtimebuddy.com/?qm=1&lid=2964574,360630,524901&h=2964574&date=2022-3-8&sln=14-16&hf=1))
+Wednesday, March 9th<br/>1-4pm BST ([check your time zone](https://www.worldtimebuddy.com/?qm=1&lid=2964574,360630,524901&h=2964574&date=2022-3-9&sln=14-16&hf=1))
 </aside>
 
-This workshop is designed for people with previous experience of R but have yet to take the plunge to working with ggplot.
+This workshop is designed for people looking for new tools to present their data.
 
 # Prework
 
