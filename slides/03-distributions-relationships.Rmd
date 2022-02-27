@@ -1,10 +1,10 @@
 ---
-title: "NHS Workshop<br>Introduction to ggplot"
+title: "GRS Workshop<br>Introduction to ggplot"
 subtitle: "ggplot - Distributions/Relationships"
 session: "11:00-12:00"
 author: "Eugene Hickey"
 institute: "Technological University Dublin"
-date: "January 21st 2021"
+date: "March 9th 2022"
 output:
   xaringan::moon_reader:
     css: 
@@ -34,11 +34,11 @@ meta() %>%
     description = "An Introduction ggplot",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "eugene100hickey/ggplot-intro") %>% 
+  meta_name("github-repo" = "eugene100hickey/grs-2022") %>% 
   meta_social(
     title = "Introduction to ggplot",
-    url = "https://into-ggplot-nhsr.netlify.app",
-    image = "https://github.com/eugene100hickey/blob/main/ice.JPG",
+    url = "https://grs-2022.netlify.app",
+    image = "img/dawn.JPG",
     image_alt = "Front page for Introduction to ggplot",
     og_type = "website",
     og_author = "Eugene Hickey",
